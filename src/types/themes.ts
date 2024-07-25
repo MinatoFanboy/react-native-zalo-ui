@@ -1,0 +1,41 @@
+import { Theme } from '@react-navigation/native';
+
+export type CustomTheme = {
+    colors: {
+        border1: string;
+        border2: string;
+        borderDanger: string;
+        borderSelected: string;
+        container: string;
+        dangerPressed: string;
+        danger: string;
+        divider1: string;
+        divider2: string;
+        icon1: string;
+        icon2: string;
+        icon3: string;
+        icon4: string;
+        link1: string;
+        link2: string;
+        linkPressed: string;
+        pageBackground1: string;
+        pageBackground2: string;
+        pageBackground3: string;
+        selected: string;
+        selectionLabel: string;
+        supportError: string;
+        supportInformative: string;
+        supportSuccess: string;
+        supportWarning: string;
+        text1: string;
+        text2: string;
+        text3: string;
+        text4: string;
+        uiBackground: string;
+        uiBackgroundDisabled: string;
+        uiBackgroundHighlighted: string;
+        uiBackgroundPressed: string;
+        uiBackgroundSelected: string;
+        uiBackgroundTransparent: string;
+    };
+} & Theme;
